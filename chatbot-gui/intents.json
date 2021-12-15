@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey->:",
+        "Hello, thanks for visiting",
+        "Hi there, how can I help?",
+        "Hi there, what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon"
+      ]
+    },
+    {
+      "tag": "owner",
+      "patterns": ["Who is your Creator", "Founder", "Who made you","parent","your dad"],
+      "responses": [
+        "I am created by Galgotians",
+        "Galgotians is the creator.",
+        "Galgotians"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["Criteria for admission","Admission Criteria","Criteria of admission","how can i take admission","admission process"],
+      "responses": [
+        "\n 1. XII th PCM marks (in %age) should be \n  greater than 90 \n        OR\n  2. On the basis of Jee mains Rank"
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": ["What is the fees of college","Fees","Fees Criteria","Charges","Fee structure"],
+      "responses": [
+        "RS: 1.25Lakh per Year"
+      ]
+    },
+    {
+      "tag": "Hostel",
+      "patterns": ["What is the hostel fees","hostel charges","What is the charge of hostel"],
+      "responses": [
+        "Contact to the Warden Sir \nContact No - 999XXXXX50"
+      ]
+    },
+    {
+      "tag": "Courses",
+      "patterns": ["What courses do you Offer","Course","Course Available"],
+      "responses": [
+        "Following are the courses offered by college:\n B.tech (in all branch)\n B.Pharma\n BBA\n MBA\n Polytechnic\n Management all Course"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful to you", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What can you do ?",
+        "What do you do ?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "I give the information about GCET",
+        "I provide the neccessary information about GCET"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
